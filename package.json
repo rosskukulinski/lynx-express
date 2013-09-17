@@ -1,0 +1,25 @@
+{
+  "name": "lynx-express",
+  "version": "0.1.0",
+  "description": "Express middleware for sending response status counts and response times to statsd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rosskukulinski/lynx-express.git"
+  },
+  "keywords": [
+    "express",
+    "lynx",
+    "statsd",
+    "nodejs",
+    "middleware"
+  ],
+  "author": "Ross Kukulinski <rossk@labs.asti-usa.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rosskukulinski/lynx-express/issues"
+  }
+}
