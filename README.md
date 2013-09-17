@@ -8,6 +8,13 @@ the Lynx StatsD Client.
 
 Once your client is configured, it's pretty straight forward to configure lynx-express.
 
+Installation:
+
+```
+npm install lynx-express
+```
+
+Configuration:
 
 ```javascript
 
