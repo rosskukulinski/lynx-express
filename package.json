@@ -1,6 +1,6 @@
 {
   "name": "lynx-express",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Express middleware for sending response status counts and response times to statsd",
   "main": "index.js",
   "scripts": {
