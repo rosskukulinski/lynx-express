@@ -1,15 +1,49 @@
 {
-  "name": "lynx-express",
-  "version": "0.2.0",
+  "_args": [
+    [
+      "lynx-express@^0.2.0",
+      "D:\\Workfolder\\testproject1"
+    ]
+  ],
+  "_from": "lynx-express@>=0.2.0 <0.3.0",
+  "_id": "lynx-express@0.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/lynx-express",
+  "_nodeVersion": "5.10.1",
+  "_npmUser": {},
+  "_npmVersion": "3.8.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "lynx-express",
+    "raw": "lynx-express@^0.2.0",
+    "rawSpec": "^0.2.0",
+    "scope": null,
+    "spec": ">=0.2.0 <0.3.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "664f4f1187a1554deb9b42daba56e5da53d5ed27",
+  "_shrinkwrap": null,
+  "_spec": "lynx-express@^0.2.0",
+  "_where": "D:\\Workfolder\\testproject1",
+  "author": {
+    "email": "rossk@labs.asti-usa.com",
+    "name": "Ross Kukulinski"
+  },
+  "bugs": {
+    "url": "https://github.com/rosskukulinski/lynx-express/issues"
+  },
+  "dependencies": {},
   "description": "Express middleware for sending response status counts and response times to statsd",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "dist": {
+    "shasum": "664f4f1187a1554deb9b42daba56e5da53d5ed27",
+    "tarball": "http://10.0.1.51:8083/lynx-express/-/lynx-express-0.2.3.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/rosskukulinski/lynx-express.git"
-  },
+  "homepage": "https://github.com/rosskukulinski/lynx-express#readme",
   "keywords": [
     "express",
     "lynx",
@@ -17,9 +51,18 @@
     "nodejs",
     "middleware"
   ],
-  "author": "Ross Kukulinski <rossk@labs.asti-usa.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rosskukulinski/lynx-express/issues"
-  }
+  "main": "index.js",
+  "name": "lynx-express",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rosskukulinski/lynx-express.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.3"
 }
