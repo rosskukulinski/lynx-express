@@ -1,5 +1,7 @@
-lynx-express
+lynx-express-chr
 ============
+
+PS:this project is a copy from [lynx-express](https://github.com/rosskukulinski/lynx-express)
 
 Express Middleware for sending data to StatsD.
 
@@ -11,7 +13,7 @@ Once your client is configured, it's pretty straight forward to configure lynx-e
 Installation:
 
 ```
-npm install lynx-express
+npm install lynx-express-chr
 ```
 
 Configuration:
@@ -20,7 +22,7 @@ Configuration:
 
 // Import lynx and lynx-express
 var Lynx = require('lynx');
-var LynxExpress = require('lynx-express');
+var LynxExpress = require('lynx-express-chr');
 
 // Setup your Lynx StatsD client as normal, optionally passing a prefix (like 'express')
 var metrics = new Lynx('localhost', 8125, {prefix: 'express'});
@@ -36,5 +38,5 @@ By default lynx-express will track the counts for each response code and a respo
 What's more useful is to have timing for each route in your Express app.  lynx-express can be configured to give you
 per-route timing by adding an option timeByUrl to the middleware constructor.
 ```javascript
-server.use(statsdMiddleware({timeByUrl: true})}
+server.use(statsdMiddleware({timeByUrl: true,includeStatic: false})}
 ```
